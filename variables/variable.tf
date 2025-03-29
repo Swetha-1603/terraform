@@ -34,7 +34,7 @@ variable "ssh_port" {
     default = 22
 }
 
-variable "project" {
+variable "protocol" {
     default = "tcp"
 }
 
