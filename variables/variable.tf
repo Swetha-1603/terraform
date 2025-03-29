@@ -31,6 +31,10 @@ variable "sg_description" {
 }
 
 variable "ssh_port" {
+    default = 22
+}
+
+variable "project" {
     default = "tcp"
 }
 
