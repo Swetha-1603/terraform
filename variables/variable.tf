@@ -2,6 +2,7 @@
 #2. tfvars
 # 3. environment variable
 # 4. variable default values
+
 variable "image_id" {
     type        = string 
     default     = "ami-09c813fb71547fc4f"

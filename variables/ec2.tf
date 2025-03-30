@@ -14,8 +14,8 @@ resource "aws_security_group" "allow_ssh" {
 
     #terraform block
     ingress {
-        from_port        = var.ssh.port
-        to_port          = var.ssh.port
+        from_port        = var.ssh_port
+        to_port          = var.ssh_port
         protocol         = var.protocol
         cidr_blocks      = var.allowed_cidr
     }
