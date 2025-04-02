@@ -1,6 +1,6 @@
 resource "aws_security_group" "allow_ports" {
     name = "allow_ports"
-    description  "allowing 22,80,8080,3306 access"
+    description = "allowing 22,80,8080,3306 access"
 
     # terraform block
     dynamic "ingress" {
